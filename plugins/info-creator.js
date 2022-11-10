@@ -8,7 +8,7 @@ let handler = async (m, {conn}) => {
 const vcard = `BEGIN:VCARD
 VERSION:3.0
 N:Sy;Bot;;;
-FN: TioXd
+FN: Reeya
 item.ORG: Creator Bot
 item1.TEL;waid=62859106985947:62859106985947@s.whatsapp.net
 item1.X-ABLabel:Nomor Creator Bot / Owner Bot
