@@ -9,30 +9,30 @@
 // Link Plugins (https://github.com/BOTCAHX/RTXZY-MD/blob/v3.0/plugins/info-creator.js)
 
 //Global Owner//
-global.owner = ['6282221792667']  // isi jika perlu
-global.mods = ['6282221792667']   // isi jika perlu
-global.prems = ['6282221792667']  // isi jika perlu
+global.owner = ['62859106985947']  // isi jika perlu
+global.mods = ['62859106985947']   // isi jika perlu
+global.prems = ['62859106985947']  // isi jika perlu
 
 //Nomor Owner & payment//
-global.nameowner = 'TioXd' // isi nama kalian bebas
-global.numberowner = '6282221792667' // isi ini untuk mengendalikan bot, untuk mengubah tampilan owner ada di plugins 
-global.dana = '6282221792667' // isi dengan nomor dana yg kamu punya 
-global.pulsa = '6282221792667' // isi dengan nomor pulsa hp kalian
-global.gopay = '6282221792667'
+global.nameowner = '𝓡𝓮𝓮𝔂𝓪' // isi nama kalian bebas
+global.numberowner = '62859106985947' // isi ini untuk mengendalikan bot, untuk mengubah tampilan owner ada di plugins 
+global.dana = 'Gada' // isi dengan nomor dana yg kamu punya 
+global.pulsa = 'Gada' // isi dengan nomor pulsa hp kalian
+global.gopay = 'Gada'
 
 //Nama Bot & Grouplink//
-global.namebot = 'RTXZY-MD'
-global.gc = 'https://chat.whatsapp.com/D6BZVRSymWaFU28t2lxaO0'
-global.web = 'https://github.com/BOTCAHX' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
-global.instagram = 'https://instagram.com/prm2.0'
+global.namebot = '𝓢𝓮𝓬𝓻𝓮𝓽 𝓜𝓓'
+global.gc = '-'
+global.web = 'https://github.com/Vhieer' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.instagram = 'https://www.instagram.com/reeeee1412/'
 
 //Tampilan wm Bot dan pesan bot//
 global.lolkey = 'rey2k22' //biar mudah ngegantinya semisal apikeynya expired:v
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired
-global.wm = '© R-TXZY-MD'
+global.wm = '© 𝓢𝓮𝓬𝓻𝓮𝓽 𝓜𝓓'
 global.watermark = wm
-global.wm2 = '⫹⫺ R-TXZY-MD'
-global.wm3 = '© R-TXZY-MD'
+global.wm2 = '⫹⫺ 𝓢𝓮𝓬𝓻𝓮𝓽 𝓜𝓓'
+global.wm3 = '© 𝓢𝓮𝓬𝓻𝓮𝓽 𝓜𝓓'
 global.wm4 = '© 2021/2022'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text='
 global.wait = '_*Tunggu sedang di proses...*_'
@@ -41,7 +41,7 @@ global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*'
 global.packname = 'Made with'
-global.author = 'Bot WhatsApp\nR-TXZY-MD'
+global.author = 'Bot WhatsApp\n𝓢𝓮𝓬𝓻𝓮𝓽 𝓜𝓓'
 
 //Apikey Setting//
 global.APIs = { // API Prefix
