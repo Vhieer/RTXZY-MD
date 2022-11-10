@@ -40,8 +40,8 @@ global.eror = '_*Server Error*_'
 global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '*⫹⫺ Stiker sedang dibuat...*'
-global.packname = 'Made with'
-global.author = 'Bot WhatsApp\n𝓢𝓮𝓬𝓻𝓮𝓽 𝓜𝓓'
+global.packname = '𝓢𝓮𝓬𝓻𝓮𝓽 𝓜𝓓'
+global.author = 'Created by Reeya with luvv <3'
 
 //Apikey Setting//
 global.APIs = { // API Prefix
