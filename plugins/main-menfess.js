@@ -1,4 +1,8 @@
-let handler = async (m, { conn, text, usedPrefix, command }) => {
+import fs from 'fs'
+let handler = async (m, { conn, number, text, usedPrefix, command }) => {
+let tag = `@${m.sender.replace(/@.+/, '')}`
+let mentionedJid = [m.sender] 
+  
     conn.menfess = conn.menfess ? conn.menfess : {}
     if (!text) throw `*Cara penggunaan :*\n\n${usedPrefix + command} nomor|nama pengirim|pesan\n\n*Note:* nama pengirim boleh nama samaran atau anonymous.\n\n*Contoh:* ${usedPrefix + command} ${m.sender.split`@`[0]}|Anonymous|Hai.`;
     let [jid, name, pesan] = text.split('|');
@@ -9,13 +13,32 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     if (jid == m.sender) throw 'tidak bisa mengirim pesan menfess ke diri sendiri.'
     let mf = Object.values(conn.menfess).find(mf => mf.status === true)
     if (mf) return !0
-    try {
-    	let id = + new Date
-        let tek = `Hai @${data.jid.split('@')[0]}, kamu menerima pesan Menfess nih.\n\nDari: *${name}*\nPesan: \n${pesan}\n\nMau balas pesan ini kak? bisa kok kak. tinggal ketik pesan kakak lalu kirim, nanti saya sampaikan ke *${name}*.`.trim();
-        let imgr = flaaa.getRandom()
-        await conn.sendButton(data.jid, bottime, tek, `${imgr + 'Menfess'}`, [['BALAS PESAN', '.balasmenfess']], fakes)
-        .then(() => {
-            m.reply('Berhasil mengirim pesan menfess.')
+ 
+let id = + new Date
+let tek = `Hᴀɪ Kᴀᴋ @${data.jid.split('@')[0]}, ᴋᴀᴍᴜ ᴍᴇɴᴇʀɪᴍᴀʜ ᴘᴇsᴀɴ ᴍᴀɴғᴇss ɴɪʜ. ꜱɪʟᴀʜᴋᴀɴ ᴋɪʀɪᴍ ᴘᴇꜱᴀɴ ʙᴀʟᴀꜱᴀɴ ᴋᴀᴍᴜ . ᴋᴇᴛɪᴋ ᴘᴇꜱᴀɴᴍᴜ ʟᴀʟᴜ ᴋɪʀɪᴍ\n➴`.trim();
+let logs = `➯ Pᴇsᴀɴ : ${pesan}`
+
+let ssn = `〠 Dᴀʀɪ : ${name}\n⎙ Pᴇsᴀɴ : ${pesan}`
+        let imgr = fla.getRandom()
+        //Created By AL? Offc
+       await conn.send3ButtonDoc(data.jid, tek, ssn,'Menu','.menu','Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: 'https://www.instagram.com/reeeee1412/',
+    mediaType: 2, 
+    description: sgc,
+    title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
+    body: wm,
+    thumbnail: fs.readFileSync('./media/menfess.jpg'),
+    sourceUrl: sgc
+   }}}).then(() => {
+           conn.send3ButtonDoc(m.chat, `Bᴇʀʜᴀsɪʟ Mᴇɴɢɪʀɪᴍ Pᴇsᴀɴ Kᴇ @${jid.replace(/@.+/, '')}`, logs, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: 'https://facebook.com/meteora404',
+    mediaType: 2, 
+    description: sgc,
+    title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
+    body: wm,
+    thumbnail: fs.readFileSync('./media/menfess.jpg'),
+    sourceUrl: sgc
+   }}})
             conn.menfess[id] = {
                 id,
                 dari: m.sender,
@@ -26,13 +49,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
             }
             return !0
         })
-    } catch (e) {
-        console.log(e)
-        m.reply('eror');
+    
     }
-}
 handler.tags = ['menbalas']
-handler.help = ['menfess', 'menfes'].map(v => v + ' <nomor|nama pengirim|pesan>')
+handler.help = ['menfess'].map(v => v + ' <nomor|nama|pesan>')
 handler.command = /^(menfess|menfes)$/i
 handler.private = true
 
@@ -42,4 +62,11 @@ export default handler
  * https://github.com/FokusDotId
  * Ingin bikin fitur tapi tidak bisa coding?
  * hubungi: https://wa.me/6281320170984
+ * Jangan lupa bawa udut minimal sukun🗿
+ 
+ *Nᴜᴍᴘᴀɴɢ Nᴀᴍᴀ
+ *Kᴀɴɢ Rᴇᴄᴏᴅᴇ : Aʟᴅɪ Lᴇsᴍᴀɴᴀ
+ *Cʜᴀɴɴᴇʟ : AL? Offc
+ 
+ *Minimal Jangan Di Hapos Anj
 */
